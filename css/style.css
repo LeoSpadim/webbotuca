@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    color: #0D0D0D;
+    background-color: #F2F2F2;
+    position: sticky; top: 0;
+    overflow: hidden;
+    margin: auto;
+    padding: 15px;
+}
+#logo{
+    font-family: 'Barlow Condensed', sans-serif;
+    float: left;
+    font-size: 20px;
+}
+#menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.m{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#top-img{
+    background-image: url(../img/bg-img.png);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#top-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    background-color: #735f58a0;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    padding-left: 350px;
+    padding-right: 350px;
+    color: #F2F2F2;
+    margin: auto;
+    text-align: center;
+    font-size: 65px;
+}
+
+#mid-text{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    max-width: 30%;
+    text-align: center;
+}
+#mid-img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#mid-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.mid-body{
+    font-size: 20px;
+}
+
+#contact{
+    background-color: #BFBBBA;
+    color: #F2F2F2;
+    padding: 100px;
+}
+#contact-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+#contact-text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#contact-menu{
+    text-align: center;
+}
+#email{
+    list-style-image: url(../img/email-ico.png);
+    list-style-type: none;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+#zap{
+    list-style-image: url(../img/zap-ico.png);
+    list-style-type: none;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
