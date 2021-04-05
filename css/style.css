@@ -128,8 +128,8 @@
         background-color: #735f58a0;
         padding-top: 280px;
         padding-bottom: 280px;
-        padding-left: 280px;
-        padding-right: 280px;
+        padding-left: 180px;
+        padding-right: 180px;
         color: #F2F2F2;
         margin: auto;
         text-align: center;
@@ -150,14 +150,14 @@
         font-family: 'Quicksand', sans-serif;
         font-weight: 500;
         background-color: #735f58a0;
-        padding-top: 280px;
-        padding-bottom: 280px;
+        padding-top: 140px;
+        padding-bottom: 140px;
         padding-left: 90px;
         padding-right: 90px;
         color: #F2F2F2;
         margin: auto;
         text-align: center;
-        font-size: 65px;
+        font-size: 55px;
     }
     #contact{
         background-color: #BFBBBA;
@@ -196,14 +196,14 @@
         font-family: 'Quicksand', sans-serif;
         font-weight: 500;
         background-color: #735f58a0;
-        padding-top: 280px;
-        padding-bottom: 280px;
+        padding-top: 90px;
+        padding-bottom: 90px;
         padding-left: 20px;
         padding-right: 20px;
         color: #F2F2F2;
         margin: auto;
         text-align: center;
-        font-size: 65px;
+        font-size: 45px;
     }
 
     #contact{
