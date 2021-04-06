@@ -1,3 +1,4 @@
+/*========================== INDEX.HTML ==========================*/
 *{
     margin: 0;
     padding: 0;
@@ -138,8 +139,66 @@
     font-size: 10px;
 }
 
-/*----------------------- BIG RES -----------------------*/
+/*========================== ABOUT.HTML ==========================*/
+#about{
+    background-color: #BFBBBA;;
+    color: #0D0D0D;
+    text-align: center;
+}
+#about-logo{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-title{
+    display: inline-block;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 800;
+    max-width: 610px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about-text{
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 610px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+#about-img{
+    display: inline-block;
+    border-radius: 100%;
+    width: 100px;
+}
+#me-title{
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 800;
+    max-width: 610px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#me-text{
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    max-width: 610px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*------------------------ BIG RES ------------------------*/
 @media screen and (max-width:1800px) {
     
     #top-text{
@@ -163,8 +222,7 @@
     }
 }
 
-/*----------------------- MID RES -----------------------*/
-
+/*------------------------ MID RES ------------------------*/
 @media screen and (max-width:1000px) {
     
     #top-text{
@@ -191,7 +249,6 @@
 }
 
 /*----------------------- SMALL RES -----------------------*/
-
 @media screen and (max-width:600px) {
     
     #logo{
