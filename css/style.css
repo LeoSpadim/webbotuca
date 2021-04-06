@@ -120,6 +120,24 @@
     padding: 10px;
 }
 
+#footer{
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+}
+#logo-footer{
+    font-family: 'Barlow Condensed', sans-serif;
+    float: left;
+    font-size: 15px;
+}
+#copyright{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 10px;
+}
+
 /*----------------------- BIG RES -----------------------*/
 
 @media screen and (max-width:1800px) {
